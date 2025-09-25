@@ -17,22 +17,25 @@ git clone https://github.com/AngeloResplandes/atividades-web2.git
 cd atividades-web2
 ```
 
-### 2. Instale as dependências
+### 2. Criar arquivo de variavel de ambiente
+```bash
+cp env_example .env 
+```
+
+### 3. Instale as dependências
 
 ```bash
 npm install
 ```
 
-### 3. Rode as migrations
+### 4. Rode as migrations
 
 ```bash
-npx knex --knexfile src/knexfile.ts migrate:latest
+npm run migrate
 ```
 
-### 4. Inicie o servidor
+### 5. Inicie o servidor
 
 ```bash
-npm run dev        // Para rodar a aplicação
-npm run migrate    // Rodar todas as migrations pendentes
-npm run rollback   // Desfazer a última migration aplicada
+npm run dev
 ```
