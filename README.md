@@ -1,4 +1,4 @@
-# 📕 Atividades - Desenvolvimento de Sistemas para Web II
+# 📕 Atividades - Desenvolvimento Web II
 
 Repositório dedicado a centralizar as atividades e trabalhos práticos 
 desenvolvidos na disciplina de Desenvolvimento de Sistemas para Web II do 
