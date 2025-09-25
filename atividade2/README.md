@@ -14,7 +14,7 @@
 
 ```bash
 git clone https://github.com/AngeloResplandes/atividades-web2.git
-cd atividades-web2
+cd atividades-web2/atividade2
 ```
 
 ### 2. Criar arquivo de variavel de ambiente
