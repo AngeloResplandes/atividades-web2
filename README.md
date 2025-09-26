@@ -16,7 +16,7 @@ curso de Sistemas de Informação na Universidade Federal do Sul e Sudeste do Pa
 
 | Atividade | Descrição | Tecnologias | Link do Código |
 | :--- | :--- | :--- | :--- |
-| **Tasks List API** | Aplicação desenvolvida para realizar o CRUD de tarefas. | `Typescript` `Node.js` `SQLite` | [Ver Código](https://github.com/AngeloResplandes/atividades-web2/tree/main/atividade1) |
+| **Tasks List API** | Aplicação desenvolvida para realizar o CRUD de tarefas. | `Typescript` `Node.js` | [Ver Código](https://github.com/AngeloResplandes/atividades-web2/tree/main/atividade1) |
 | **Diet Control API** | Aplicação desenvolvida para gerenciar controle de dieta diária. | `Typescript` `Node.js` `Fastify` `Knex` `SQLite` | [Ver Código](https://github.com/AngeloResplandes/atividades-web2/tree/main/atividade2) |
 
 ### 💭 Como Executar?
