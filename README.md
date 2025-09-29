@@ -4,7 +4,7 @@ Repositório dedicado a centralizar as atividades e trabalhos práticos
 desenvolvidos na disciplina de Desenvolvimento de Sistemas para Web II do 
 curso de Sistemas de Informação na Universidade Federal do Sul e Sudeste do Pará.
 
-## 🛠️ Tecnologias Utilizadas
+### 🛠️ Tecnologias Utilizadas
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=plastic&logo=typescript&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=plastic&logo=nodedotjs&logoColor=white)
@@ -12,7 +12,7 @@ curso de Sistemas de Informação na Universidade Federal do Sul e Sudeste do Pa
 ![Knex.js](https://img.shields.io/badge/Knex.js-D36422?style=plastic&logo=knexdotjs&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=plastic&logo=sqlite&logoColor=white)
 
-## 📝 Atividades Desenvolvidas
+### 📝 Atividades Desenvolvidas
 
 | Atividade | Descrição | Tecnologias | Link do Código |
 | :--- | :--- | :--- | :--- |
