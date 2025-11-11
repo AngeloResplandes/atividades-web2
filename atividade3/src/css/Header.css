@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 20px;
+    background: white;
+    border-bottom: none;
+    position: relative;
+}
+
+header::after {
+    content: '';
+    display: none;
+}
+
+header img {
+    max-width: 200px;
+    height: auto;
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 20px;
+    }
+
+    header img {
+        max-width: 150px;
+    }
+}

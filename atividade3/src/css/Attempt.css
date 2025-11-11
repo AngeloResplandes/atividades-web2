@@ -1,0 +1,74 @@
+.attempt {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: white;
+    border-bottom: none;
+}
+
+.attempt h3 {
+    margin: 0;
+    color: #9B9B9B;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.attempt h3::before {
+    content: '';
+    font-size: 20px;
+}
+
+.attempts-number {
+    color: #F59E0B;
+    font-weight: 700;
+}
+
+.attempt button {
+    background: transparent;
+    border: none;
+    border-radius: 50%;
+    padding: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: none;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6366F1;
+}
+
+.attempt button:hover {
+    transform: rotate(180deg);
+    background-color: #F3F4F6;
+}
+
+.attempt button:active {
+    transform: rotate(180deg) scale(0.9);
+}
+
+.attempt button img {
+    width: 24px;
+    height: 24px;
+}
+
+@media (max-width: 600px) {
+    .attempt {
+        padding: 15px;
+    }
+
+    .attempt h3 {
+        font-size: 14px;
+    }
+
+    .attempt button {
+        width: 36px;
+        height: 36px;
+    }
+}

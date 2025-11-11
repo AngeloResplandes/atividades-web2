@@ -1,0 +1,168 @@
+.lyrics-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.guess-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.guess-form h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #32325F;
+    font-weight: 500;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.letter-input {
+    width: 48px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    outline: none;
+    transition: all 0.3s ease;
+    background-color: #EBEBFC;
+    color: #6363DB;
+}
+
+.letter-input:focus {
+    border: none;
+    box-shadow: 0 0 0 2px #4F4FB9;
+}
+
+.letter-input:disabled {
+    background-color: #F3F4F6;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.confirm-button {
+    padding: 12px 24px;
+    background-color: #6366F1;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: none;
+}
+
+.confirm-button:hover:not(:disabled) {
+    background-color: #4F46E5;
+    transform: translateY(-1px);
+}
+
+.confirm-button:active:not(:disabled) {
+    transform: translateY(0);
+}
+
+.confirm-button:disabled {
+    background-color: #D1D5DB;
+    cursor: not-allowed;
+    box-shadow: none;
+    opacity: 0.6;
+}
+
+.letters-history {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.letters-history h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #32325F;
+    font-weight: 500;
+}
+
+.letters-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    min-height: 48px;
+    padding: 0;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.no-letters {
+    color: #9CA3AF;
+    font-size: 14px;
+    font-style: italic;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.letter-badge {
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1F2937;
+    animation: fadeIn 0.3s ease;
+    box-shadow: none;
+}
+
+.letter-badge.correct {
+    background-color: #D1FAE5;
+    border: 2px solid #10B981;
+}
+
+.letter-badge.wrong {
+    background-color: #FFCF62;
+    border: 2px solid #691B0A;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@media (max-width: 600px) {
+    .lyrics-container {
+        padding: 15px;
+    }
+
+    .input-group {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .confirm-button {
+        width: 100%;
+    }
+
+    .letters-list {
+        justify-content: center;
+    }
+}

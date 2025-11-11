@@ -1,0 +1,79 @@
+.tip {
+    display: flex;
+    flex-direction: row;
+    background: #EEF2FF;
+    padding: 16px 20px;
+    gap: 12px;
+    align-items: center;
+    border-left: none;
+    box-shadow: none;
+    margin: 0 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.tip:hover {
+    box-shadow: none;
+    transform: none;
+}
+
+.tip img {
+    width: 40px;
+    height: 40px;
+}
+
+.text {
+    flex: 1;
+}
+
+.text h3 {
+    margin: 0 0 4px 0;
+    font-size: 20px;
+    color: #4F4FB9;
+    font-weight: 700;
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+.text p {
+    margin: 0;
+    font-size: 16px;
+    color: #4F4FB9;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+@media (max-width: 600px) {
+    .tip {
+        margin: 15px 10px;
+        padding: 12px 15px;
+        gap: 10px;
+    }
+
+    .tip img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .text h3 {
+        font-size: 12px;
+    }
+
+    .text p {
+        font-size: 13px;
+    }
+}
