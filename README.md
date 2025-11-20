@@ -22,7 +22,7 @@ curso de Sistemas de Informação na Universidade Federal do Sul e Sudeste do Pa
 | **Tasks List API** | Aplicação desenvolvida para realizar o CRUD de tarefas. | `Typescript` `Node.js` | [Ver Código](https://github.com/AngeloResplandes/atividades-web2/tree/main/atividade1) |
 | **Diet Control API** | Aplicação desenvolvida para gerenciar controle de dieta diária. | `Typescript` `Node.js` `Fastify` `Knex` `SQLite` | [Ver Código](https://github.com/AngeloResplandes/atividades-web2/tree/main/atividade2) |
 | **Guess Game** | Jogo de adivinhar palavras relacionadas ao desenvolvimento web. | `React` `Typescript` `Node.js` `Vite` | [Ver Código](https://github.com/AngeloResplandes/atividades-web2/tree/main/atividade3) |
-| **HelpDesk** | Página de login e cadastro para HelpDesk. | `React` `Typescript` `Node.js` `Vite` `Zod` | [Ver Código]() |
+| **HelpDesk** | Página de login e cadastro para HelpDesk. | `React` `Typescript` `Node.js` `Vite` `Zod` | [Ver Código](https://github.com/AngeloResplandes/atividades-web2/tree/main/atividade4) |
 
 ## 💭 Como Executar?
 Para rodar um projeto específico, navegue até a pasta correspondente (`./nome-da-pasta`) e siga as instruções do `README.md` local.
