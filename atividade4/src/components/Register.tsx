@@ -26,10 +26,10 @@ export const Register = () => {
                 <img src={Logo} alt="HelpDesk" className="h-8" />
             </div>
 
-            <div className="border border-gray-300 rounded-2xl px-8 py-4">
-                <div className="flex flex-col items-center mb-5">
+            <div className="border border-gray-300 rounded-2xl p-5">
+                <div className="flex flex-col items-center mb-3">
                     <div className="w-full text-left">
-                        <h1 className="text-2xl font-bold text-gray-900 mb-2">
+                        <h1 className="text-xl font-bold text-gray-900 mb-2">
                             Crie sua conta
                         </h1>
                         <p className="text-gray-500 text-sm">
@@ -38,12 +38,12 @@ export const Register = () => {
                     </div>
                 </div>
 
-                <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
+                <form onSubmit={handleSubmit(onSubmit)} className="space-y-2">
                     <div>
                         <label
                             htmlFor="name"
                             className={`block text-xs font-bold text-gray-500 
-                        uppercase tracking-wider mb-2`}>
+                        uppercase tracking-wider mb-1`}>
                             Nome
                         </label>
                         <input
@@ -117,7 +117,7 @@ export const Register = () => {
 
                     <button
                         type="submit"
-                        className={`w-full py-3 px-4 bg-gray-900 hover:bg-gray-800 
+                        className={`w-full py-2 px-4 bg-gray-900 hover:bg-gray-800 
                         text-white font-medium rounded-lg transition-colors mt-1`}
                     >
                         Cadastrar
@@ -125,17 +125,17 @@ export const Register = () => {
                 </form>
             </div>
 
-            <div className="mt-4 border border-gray-300 rounded-2xl px-8 py-4">
+            <div className="mt-4 border border-gray-300 rounded-2xl p-5">
                 <h3 className="text-gray-900 font-semibold mb-1">
                     Já uma conta?
                 </h3>
-                <p className="text-gray-500 text-sm mb-4">
+                <p className="text-gray-500 text-sm mb-2">
                     Entre agora mesmo
                 </p>
                 <button
                     type="button"
                     onClick={() => navigate('/')}
-                    className={`w-full py-3 px-4 bg-gray-200 hover:bg-gray-300 
+                    className={`w-full py-2 px-4 bg-gray-200 hover:bg-gray-300 
                         text-gray-800 font-medium rounded-lg transition-colors`}
                 >
                     Acessar conta

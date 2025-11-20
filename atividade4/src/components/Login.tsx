@@ -26,10 +26,10 @@ export const Login = () => {
                 <img src={Logo} alt="HelpDesk" className="h-8" />
             </div>
 
-            <div className="border border-gray-300 rounded-2xl p-8">
-                <div className="flex flex-col items-center mb-10">
+            <div className="border border-gray-300 rounded-2xl p-6">
+                <div className="flex flex-col items-center mb-6">
                     <div className="w-full text-left">
-                        <h1 className="text-2xl font-bold text-gray-900 mb-2">
+                        <h1 className="text-xl font-bold text-gray-900 mb-2">
                             Acesse o portal
                         </h1>
                         <p className="text-gray-500 text-sm">
@@ -38,7 +38,7 @@ export const Login = () => {
                     </div>
                 </div>
 
-                <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
+                <form onSubmit={handleSubmit(onSubmit)} className="space-y-3">
                     <div>
                         <label
                             htmlFor="email"
@@ -90,7 +90,7 @@ export const Login = () => {
 
                     <button
                         type="submit"
-                        className={`w-full py-3 px-4 bg-gray-900 hover:bg-gray-800 
+                        className={`w-full py-2 px-4 bg-gray-900 hover:bg-gray-800 
                         text-white font-medium rounded-lg transition-colors mt-4`}
                     >
                         Entrar
@@ -98,7 +98,7 @@ export const Login = () => {
                 </form>
             </div>
 
-            <div className="mt-4 border border-gray-300 rounded-2xl p-8">
+            <div className="mt-4 border border-gray-300 rounded-2xl p-6">
                 <h3 className="text-gray-900 font-semibold mb-1">
                     Ainda não tem uma conta?
                 </h3>
@@ -108,7 +108,7 @@ export const Login = () => {
                 <button
                     type="button"
                     onClick={() => navigate('/register')}
-                    className={`w-full py-3 px-4 bg-gray-200 hover:bg-gray-300 
+                    className={`w-full py-2 px-4 bg-gray-200 hover:bg-gray-300 
                         text-gray-800 font-medium rounded-lg transition-colors`}
                 >
                     Criar conta
